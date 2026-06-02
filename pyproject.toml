@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-trace-cost-attribution"
+version = "0.0.1"
+description = "Cost waterfall and counterfactual routing over OpenTelemetry GenAI traces."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["pandas>=2.0"]
+
+[project.optional-dependencies]
+notebook = ["jupyter", "nbformat", "nbclient"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

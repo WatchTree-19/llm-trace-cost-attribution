@@ -1,0 +1,346 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "support-agent"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": {
+            "name": "any-otel-genai-instrumentation"
+          },
+          "spans": [
+            {
+              "spanId": "0000000000000001",
+              "parentSpanId": "00000000000000ff",
+              "name": "chat opus",
+              "startTimeUnixNano": "1716800001000000000",
+              "endTimeUnixNano": "1716800001900000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.system",
+                  "value": {
+                    "stringValue": "anthropic"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.turn.index",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "8200"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "620"
+                  }
+                }
+              ]
+            },
+            {
+              "spanId": "0000000000000002",
+              "parentSpanId": "00000000000000ff",
+              "name": "tool lookup_order",
+              "startTimeUnixNano": "1716800002000000000",
+              "endTimeUnixNano": "1716800002900000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.system",
+                  "value": {
+                    "stringValue": "anthropic"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.turn.index",
+                  "value": {
+                    "intValue": "1"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "340"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "70"
+                  }
+                }
+              ]
+            },
+            {
+              "spanId": "0000000000000003",
+              "parentSpanId": "00000000000000ff",
+              "name": "chat opus",
+              "startTimeUnixNano": "1716800003000000000",
+              "endTimeUnixNano": "1716800003900000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.system",
+                  "value": {
+                    "stringValue": "anthropic"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.turn.index",
+                  "value": {
+                    "intValue": "2"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "2100"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "410"
+                  }
+                }
+              ]
+            },
+            {
+              "spanId": "0000000000000004",
+              "parentSpanId": "00000000000000ff",
+              "name": "chat opus (failed attempt)",
+              "startTimeUnixNano": "1716800004000000000",
+              "endTimeUnixNano": "1716800004900000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.system",
+                  "value": {
+                    "stringValue": "anthropic"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.turn.index",
+                  "value": {
+                    "intValue": "3"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "2250"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "40"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.retry_count",
+                  "value": {
+                    "intValue": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "spanId": "0000000000000005",
+              "parentSpanId": "00000000000000ff",
+              "name": "chat opus (retry ok)",
+              "startTimeUnixNano": "1716800005000000000",
+              "endTimeUnixNano": "1716800005900000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.system",
+                  "value": {
+                    "stringValue": "anthropic"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.turn.index",
+                  "value": {
+                    "intValue": "3"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "2250"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "380"
+                  }
+                }
+              ]
+            },
+            {
+              "spanId": "0000000000000006",
+              "parentSpanId": "00000000000000ff",
+              "name": "tool check_refund_policy",
+              "startTimeUnixNano": "1716800006000000000",
+              "endTimeUnixNano": "1716800006900000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.system",
+                  "value": {
+                    "stringValue": "anthropic"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.turn.index",
+                  "value": {
+                    "intValue": "4"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "280"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "65"
+                  }
+                }
+              ]
+            },
+            {
+              "spanId": "0000000000000007",
+              "parentSpanId": "00000000000000ff",
+              "name": "chat opus (summary)",
+              "startTimeUnixNano": "1716800007000000000",
+              "endTimeUnixNano": "1716800007900000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.system",
+                  "value": {
+                    "stringValue": "anthropic"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.turn.index",
+                  "value": {
+                    "intValue": "5"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "1500"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "300"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
